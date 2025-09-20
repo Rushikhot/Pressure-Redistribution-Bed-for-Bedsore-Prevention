@@ -40,9 +40,6 @@ Smart bed with automated pressure redistribution using:
 - [3D printed casing](hardware/casing/)
 - [Component list](docs/components.md)
 
-## Status
-🔄 **Current Phase**: Circuit design complete, moving to prototype assembly
-📅 **Target Completion**: April 2025
 
 ## Team
 **Group Avishkar** - IIT Guwahati
