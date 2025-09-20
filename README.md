@@ -35,13 +35,12 @@ Smart bed with automated pressure redistribution using:
 4. Upload firmware to ESP32
 5. Mount sensors on bed surface
 
-## Project Files
-- **Code**: [src/main.py](src/main.py) - Main control program
-- **Components**: [Docs/Components](Docs/Components) - Complete parts list
-- **Circuit Design**: [hardware/circuit-design/](hardware/circuit-design/) - KiCAD files
-- **3D Casing**: [hardware/casing/](hardware/casing/) - Fusion360 models
-- **Documentation**: [Docs/](Docs/) - Project documentation
-
+## Project Structure
+- **Code**: Main control program in `src/` folder
+- **Components**: Complete parts list in `Docs/Components`
+- **Circuit Design**: KiCAD files in `Hardware/circuit-design/`
+- **3D Casing**: Fusion360 models in `Hardware/casing/`
+- **Documentation**: Project docs in `Docs/` folder
 
 
 ## Team
