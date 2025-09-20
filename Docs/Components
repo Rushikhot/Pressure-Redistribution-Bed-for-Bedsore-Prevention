@@ -1,5 +1,9 @@
+# Components List
+
+## Hardware Components
+
 | Component | Quantity | Purpose |
-|-----------|----------|---------|
+|---|---|---|
 | BME280 Sensor | 6 | Temperature, humidity and pressure monitoring |
 | DS3231 RTC Module | 1 | Time-stamp data logging |
 | 3V Coin Vibration Motor | 6 | Micro-vibrations for blood circulation |
@@ -14,3 +18,23 @@
 | TCA9548A I2C Multiplexer | 1 | Multiple BME280 sensor management |
 | IRF520N MOSFET | 6 | Vibration motor control |
 | 5A Fuse | 1 | Overcurrent protection |
+
+## Key Components by Function
+
+**Sensors:**
+- 6x BME280 - Pressure, temperature, humidity monitoring
+- 1x DS3231 RTC - Real-time clock for data timestamps
+
+**Actuators:**
+- 6x Vibration Motors - Blood circulation enhancement
+- 2x Servo Motors - Automated bed repositioning
+
+**Control & Power:**
+- 1x ESP32 - Main microcontroller
+- 1x LiPo Battery - Portable power source
+- Power regulation circuits for voltage conversion
+
+**Data Storage:**
+- 1x MicroSD module + card - Sensor data logging
+
+**Total Components:** 28 individual parts
