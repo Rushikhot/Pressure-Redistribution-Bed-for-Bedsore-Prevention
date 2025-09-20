@@ -1,0 +1,16 @@
+| Component | Quantity | Purpose |
+|-----------|----------|---------|
+| BME280 Sensor | 6 | Temperature, humidity and pressure monitoring |
+| DS3231 RTC Module | 1 | Time-stamp data logging |
+| 3V Coin Vibration Motor | 6 | Micro-vibrations for blood circulation |
+| SG90 Servo Motor | 2 | Lateral bed movement simulation |
+| ESP32 Dev Board | 1 | Central control unit |
+| 7.4V 2S LiPo Battery (3000mAh) | 1 | Main power source |
+| LM2596 Buck Converter | 1 | Voltage conversion 7.4V → 5V |
+| AMS1117 3.3V LDO Regulator | 1 | Voltage conversion 5V → 3.3V |
+| TP4056 LiPo Charger Module | 2 | Battery charging |
+| MicroSD Card Module (SPI) | 1 | Data storage interface |
+| MicroSD Card (8GB+) | 1 | Sensor data storage |
+| TCA9548A I2C Multiplexer | 1 | Multiple BME280 sensor management |
+| IRF520N MOSFET | 6 | Vibration motor control |
+| 5A Fuse | 1 | Overcurrent protection |
