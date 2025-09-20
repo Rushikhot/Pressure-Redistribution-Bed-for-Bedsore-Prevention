@@ -1,6 +1,3 @@
-# Pressure-Redistribution-Bed-for-Bedsore-Prevention
-Smart bed prototype preventing pressure ulcers through automated monitoring and micro-vibrations. Reduces manual repositioning needs while improving patient care in hospitals and home settings.
-
 # Smart Bed for Pressure Ulcer Prevention
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -29,16 +26,22 @@ Smart bed with automated pressure redistribution using:
 - SD card for data logging
 
 ## Getting Started
-1. Clone repository: `git clone [repo-url]`
+1. Clone repository: 
+   ```bash
+   git clone https://github.com/Rushikhot/Pressure-Redistribution-Bed-for-Bedsore-Prevention.git
+   ```
 2. Install Arduino IDE and ESP32 support
 3. Wire components per circuit diagram
 4. Upload firmware to ESP32
 5. Mount sensors on bed surface
 
-## Circuit & Design
-- [Circuit diagram](hardware/circuit-design/)
-- [3D printed casing](hardware/casing/)
-- [Component list](docs/components.md)
+## Project Files
+- **Code**: [src/main.py](src/main.py) - Main control program
+- **Components**: [Docs/Components](Docs/Components) - Complete parts list
+- **Circuit Design**: [hardware/circuit-design/](hardware/circuit-design/) - KiCAD files
+- **3D Casing**: [hardware/casing/](hardware/casing/) - Fusion360 models
+- **Documentation**: [Docs/](Docs/) - Project documentation
+
 
 
 ## Team
